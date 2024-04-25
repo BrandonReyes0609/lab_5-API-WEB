@@ -1,0 +1,14 @@
+{
+  "name": "lab_5-api-web",
+  "version": "1.0.0",
+  "description": "API",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "author": "Brandon",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
