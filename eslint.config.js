@@ -1,16 +1,13 @@
-import globals from "globals";
+const globals = require("globals");
+const path = require("path");
+const url = require("url");
+const fileURLToPath = url.fileURLToPath;
+const FlatCompat = require("@eslint/eslintrc").FlatCompat;
+const pluginJs = require("@eslint/js");
 
-import path from "path";
-import { fileURLToPath } from "url";
-import { FlatCompat } from "@eslint/eslintrc";
-import pluginJs from "@eslint/js";
-
-// mimic CommonJS variables -- not needed if using CommonJS
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 const compat = new FlatCompat({baseDirectory: __dirname, recommendedConfig: pluginJs.configs.recommended});
 
-export default [
+module.exports = [
   {languageOptions: { globals: globals.browser }},
   ...compat.extends("airbnb-base"),
 ];
