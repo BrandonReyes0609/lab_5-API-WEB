@@ -1,23 +1,17 @@
-FROM ubuntu:latest
-ENV DEBIAN_FRONTEND=noninteractive
+# Utilizar la locationUn de mysql para crear una base de datos
 
-RUN apt-get update && \
-    apt-get install -y mysql-server
+FROM mysql:latest
 
-# Configure MySQL to listen on all interfaces
-RUN sed -i 's/^bind-address\s*=.*/bind-address = 0.0.0.0/' /etc/mysql/mysql.conf.d/mysqld.cnf
+# Variables iniciales
 
-ENV MYSQL_DATABASE=blog_db
+ENV MYSQL_ROOT_PASSWORD=toor
+ENV MYSQL_DATABASE=post_db
+ENV MYSQL_USER=brandon
+ENV MYSQL_PASSWORD=123
 
-ENV MYSQL_USER=blog_user
-
-ENV MYSQL_PASSWORD=blog_password
-
-ENV MYSQL_ROOT_PASSWORD=root_password
-
-COPY schema.sql /schema.sql
-COPY init-db.sh /init-db.sh
-RUN chmod +x /init-db.sh
+# Copiar config, de schema para crear las tablas
 
 EXPOSE 3306
+
+COPY ./schema.sql /docker-entrypoint-initdb.d/
 CMD ["mysqld"]
