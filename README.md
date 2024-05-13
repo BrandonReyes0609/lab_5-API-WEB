@@ -31,7 +31,7 @@ npm start
 npm run lint
 
 
-## AHora para borrar el contenedor y locationUn de Dockerfile
+## Agora para borrar el contenedor y locationUn de Dockerfile
  - Detener contendor
 
 docker stop brandon-db
