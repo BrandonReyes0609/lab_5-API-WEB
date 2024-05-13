@@ -1,0 +1,30 @@
+2024-05-12T07:20:38.327Z - Método: POST, URL: /posts, Payload: {"title":"Panitos","content":"Veta de panes con ingredientes","banner":"www.google.com","locationU":"Cafeteria CIT"}
+2024-05-12T07:21:28.217Z - Método: GET, URL: /gets, Payload: {"title":"Panitos","content":"Veta de panes con ingredientes","banner":"www.google.com","locationU":"Cafeteria CIT"}
+2024-05-12T07:21:32.126Z - Método: GET, URL: /get, Payload: {"title":"Panitos","content":"Veta de panes con ingredientes","banner":"www.google.com","locationU":"Cafeteria CIT"}
+2024-05-12T07:21:35.901Z - Método: GET, URL: /, Payload: {"title":"Panitos","content":"Veta de panes con ingredientes","banner":"www.google.com","locationU":"Cafeteria CIT"}
+2024-05-12T07:22:01.939Z - Método: GET, URL: /posts, Payload: {}
+2024-05-12T07:22:49.814Z - Método: PUT, URL: /posts/3, Payload: {}
+2024-05-12T07:23:52.232Z - Método: PUT, URL: /posts/3, Payload: {"title":"Gitan","content":"Venta de comida variada","banner":"www.google.com","locationU":"Cafeteria CIT"}
+2024-05-12T07:24:27.283Z - Método: GET, URL: /posts, Payload: {"title":"Gitan","content":"Venta de comida variada","banner":"www.google.com","locationU":"Cafeteria CIT"}
+2024-05-12T07:25:59.875Z - Método: DELETE, URL: /posts/1, Payload: {"title":"Gitan","content":"Venta de comida variada","banner":"www.google.com","locationU":"Cafeteria CIT"}
+2024-05-12T07:26:04.784Z - Método: DELETE, URL: /posts/1, Payload: {"title":"Gitan","content":"Venta de comida variada","banner":"www.google.com","locationU":"Cafeteria CIT"}
+2024-05-12T07:26:19.515Z - Método: GET, URL: /posts, Payload: {"title":"Gitan","content":"Venta de comida variada","banner":"www.google.com","locationU":"Cafeteria CIT"}
+2024-05-12T07:26:29.224Z - Método: DELETE, URL: /posts/2, Payload: {"title":"Gitan","content":"Venta de comida variada","banner":"www.google.com","locationU":"Cafeteria CIT"}
+2024-05-12T07:26:48.262Z - Método: GET, URL: /posts/3, Payload: {"title":"Gitan","content":"Venta de comida variada","banner":"www.google.com","locationU":"Cafeteria CIT"}
+2024-05-12T07:26:51.761Z - Método: GET, URL: /posts, Payload: {"title":"Gitan","content":"Venta de comida variada","banner":"www.google.com","locationU":"Cafeteria CIT"}
+2024-05-12T07:27:24.833Z - Método: DELETE, URL: /posts/3, Payload: {"title":"Gitan","content":"Venta de comida variada","banner":"www.google.com","locationU":"Cafeteria CIT"}
+2024-05-12T07:27:57.729Z - Método: GET, URL: /posts/3, Payload: {"title":"Gitan","content":"Venta de comida variada","banner":"www.google.com","locationU":"Cafeteria CIT"}
+2024-05-12T07:31:38.855Z - Método: POST, URL: /posts, Payload: {"title":"Gitan","content":"Venta de comida variada","banner":"www.google.com","locationU":"Cafeteria CIT"}
+2024-05-12T07:31:44.864Z - Método: GET, URL: /posts, Payload: {"title":"Gitan","content":"Venta de comida variada","banner":"www.google.com","locationU":"Cafeteria CIT"}
+2024-05-12T07:34:00.503Z - Método: POST, URL: /posts, Payload: {"title":"Pani","content":"Venta de comida variada","banner":"www.google.com","locationU":"Cafeteria CIT"}
+2024-05-12T07:34:12.165Z - Método: GET, URL: /posts, Payload: {"title":"Pani","content":"Venta de comida variada","banner":"www.google.com","locationU":"Cafeteria CIT"}
+2024-05-12T07:34:22.401Z - Método: DELETE, URL: /posts/5, Payload: {"title":"Pani","content":"Venta de comida variada","banner":"www.google.com","locationU":"Cafeteria CIT"}
+2024-05-12T07:35:17.078Z - Método: GET, URL: /posts, Payload: {"title":"Pani","content":"Venta de comida variada","banner":"www.google.com","locationU":"Cafeteria CIT"}
+2024-05-12T21:56:12.920Z - Método: GET, URL: /, Payload: {}
+2024-05-12T21:56:13.930Z - Método: GET, URL: /favicon.ico, Payload: {}
+2024-05-12T21:56:46.439Z - Método: GET, URL: /posts, Payload: {"title":"Pani","content":"Venta de comida variada","banner":"www.google.com","locationU":"Cafeteria CIT"}
+2024-05-12T21:56:51.597Z - Método: POST, URL: /posts, Payload: {"title":"Pani","content":"Venta de comida variada","banner":"www.google.com","locationU":"Cafeteria CIT"}
+2024-05-12T21:56:54.519Z - Método: GET, URL: /posts, Payload: {"title":"Pani","content":"Venta de comida variada","banner":"www.google.com","locationU":"Cafeteria CIT"}
+2024-05-13T00:36:12.587Z - Método: GET, URL: /posts, Payload: {"title":"GItan","content":"Venta de comida variada","banner":"www.google.com","locationU":"Cafeteria CIT"}
+2024-05-13T00:36:27.050Z - Método: GET, URL: /posts, Payload: {"title":"GItan111111","content":"Venta de comida variada","banner":"www.google.com","locationU":"Cafeteria CIT"}
+2024-05-13T00:36:33.337Z - Método: POST, URL: /posts, Payload: {"title":"GItan111111","content":"Venta de comida variada","banner":"www.google.com","locationU":"Cafeteria CIT"}
